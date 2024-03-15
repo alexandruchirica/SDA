@@ -18,17 +18,11 @@ typedef struct Product {
 } Product;
 
 int compare_by_product_value(const void *a, const void *b);
-
 void _insert_product_details_(Product *products, char *line, int index);
-
 void read_file(Product **products, int *number_of_products, FILE *file);
-
 void top_5_products_by_value(Product *products);
-
 void print_monthly_profit(Product *products, int number_of_products);
-
 void total_income_by_month(Product *products, int number_of_products);
-
 void sales_distribution_by_category(Product *products, int number_of_products);
 
 int main() {
